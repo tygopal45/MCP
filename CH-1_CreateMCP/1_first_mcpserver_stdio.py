@@ -22,4 +22,6 @@ async def process(path:str):
 
 if __name__ == "__main__":
     # Run the MCP server
+
+    # We need to specify the transport as "stdio" to run the MCP server in standard input/output mode.
     mcp.run(transport="stdio")
